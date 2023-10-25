@@ -2,6 +2,7 @@ import datetime
 from pathlib import Path
 
 
+# функция для создания папок
 def make_dir(name, n_try=10):
     for el in range(1, n_try + 1):
         path_ = Path(f'./{datetime.date.today()}_{name}_({el})')
@@ -13,5 +14,4 @@ def make_dir(name, n_try=10):
                 continue
             else:
                 return path_
-    raise RuntimeError('Количество поптыток создания папок больше 10')
-  
+    raise RuntimeError(f'Количество поптыток создания папок больше {n_try}')
