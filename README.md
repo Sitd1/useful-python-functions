@@ -7,7 +7,13 @@ Ru: Этот репозиторий содержит набор собствен
 
 ## Key Features
 
-- Отобранный набор Python-функций.
+En:
+ - A curated collection of Python functions.
+ - Contributions and feedback are welcome.
+
+Ru: 
+ - Отобранный набор Python-функций.
+ - Приветствуются вклады и обратная связь.
 
 
 ## Usage
